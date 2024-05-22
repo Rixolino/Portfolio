@@ -1,0 +1,5 @@
+Il sito è molto ricco e ben fatto.
+Le immagini dei vari carousel sono tutte di dimensioni diverse e con proporzioni diverse: prima di inserirle le dovresti ritagliare con un apposito software oppure dovresti inserire un valore di width (o una height) uguale per tutte.
+Nel codice ci sono alcune cose che poi sul sito non vedo come una progress bar sotto l'header.
+La navbar non collassa quando la larghezza della pagina è molto ridotta e quindi l'ultimo link, se guardiamo il sito da uno schermo piccolo, va a capo e non è bello da vedere.
+Le tre immagini che stanno subito sopra il footer (Marconi, Github e Betacloud) non sono allineate verticalmente tra loro e l'effetto è brutto.

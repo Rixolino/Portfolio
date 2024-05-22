@@ -1,0 +1,127 @@
+
+
+body {
+    overflow-x: hidden; /*toglie la barra dello scorrimento orrizontale 
+    che si trova sotto il footer*/
+    height: 100%;
+    font-size: 1rem;  
+}
+ /*per importare font esterno*/ 
+@import url('https://fonts.cdnfonts.com/css/android-assassin');
+  
+
+/* Nasconde la scrollbar e la rende proporzionale */
+body::-webkit-scrollbar {
+    width: 10px;  
+}
+
+body::-webkit-scrollbar-track {
+    background: transparent; /* Colore di sfondo della scrollbar */
+}
+
+body::-webkit-scrollbar-thumb {
+    background: transparent; 
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.2); /* Colore al passaggio del mouse sulla scrollbar */
+}           
+ 
+
+
+#textlogo{
+    font-family: 'Android Assassin', sans-serif;   
+    font-style: normal;       
+    font-weight: 200;                                     
+    letter-spacing: 1.8px;
+}
+  
+.gradient {
+    
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(204,20,49,1) 35%, rgba(0,116,255,1) 84%);
+    color: white;
+    
+}
+#gradientone{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(246,149,8,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+#gradient2 {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(246,8,8,0.9934348739495799) 0%, rgba(0,209,255,1) 100%);
+}
+
+#gradient3 {
+    background: rgb(255,0,199);
+background: linear-gradient(90deg, rgba(255,0,199,1) 0%, rgba(17,111,255,1) 81%);
+}
+
+.barigradient {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 2%, rgba(255,0,0,1) 85%);
+} 
+
+.juventusgradient {
+     background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 53%);
+}
+
+#bariicon {
+    background: rgb(255,247,247);
+background: linear-gradient(90deg, rgba(255,247,247,1) 31%, rgba(255,3,3,1) 70%);
+}
+
+#juveicon {
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 53%);
+}
+
+.icon {
+color: #fff;
+height: 5rem;
+width: 5rem;
+font-size: 1.75rem;
+border-radius: 100%;
+border-color: white;
+border-style: solid;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+}
+
+.whitemode {
+    color: black;
+    background-color: white;
+}
+
+.darkmode {
+    color: white;
+    background-color: black;
+}
+
+#textwhite{
+    color:#fff;
+}
+
+#one{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#two {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+#contacts {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contactsinfo {
+color: darkblue;
+background-color: #fff8e7;
+}
